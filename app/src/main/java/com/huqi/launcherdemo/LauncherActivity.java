@@ -77,4 +77,7 @@ public class LauncherActivity extends Activity {
         startActivity(intent);
     }
 
+    @Override
+    public void onBackPressed() {
+    }
 }
